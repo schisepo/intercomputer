@@ -1,9 +1,10 @@
-<div class = "container">
+<div class = "container-fluid">
 <div class = "row feature">
-<section class ="jumbotron">    
-    <h2 class ="text-centre">Professional, Customised Solutions</h2>
-    <p class ="text-muted headline-text"> Our highly experienced multi-skilled team of developers will work with you remotely or at your premises to deliver timely business solutions that address your business concerns.  </p>
-
+<section class ="jumbotron text-center">    
+    <h3 class ="text-uppercase"><bold>Professional, Custom-built Solutions</bold></h3>
+    <p> Our highly experienced multi-skilled team of developers will work with you remotely or at your premises to deliver timely business solutions that address your business concerns.  </p>
+    <%= link_to "Contact Us", root_path(anchor: "contact"),class:"page-scroll btn btn-primary btn-lg"%>
 </section>
+<%= render 'layouts/team' %>
 </div>
 </div>
