@@ -9,12 +9,13 @@ body{
 	background-color: #E6E3E4;
 	color: #2D7D67;
 	border:0px;
-	font-family: "Open Sans",sans-serif;
-	font-weight: 500;
+	
 
 }
 .navbar-default .navbar-nav > li > a{
-	color: #2e3191;
+	color: #000066;
+	font-family: "Open Sans",sans-serif;
+	font-weight: 600;
 }
 .feature{
 	height: 100%;	
@@ -22,6 +23,7 @@ body{
 }
 .jumbotron{
 	background-color: #B3A9A6;
+	color:#5A342F;
 }
 .headline-text{
 	text-align: center;
