@@ -1,12 +1,12 @@
 body{
-	background-color: #E6E3E4;
+	background-color: #FFF;
 
 }
 .navtop{
 	padding-top: 0px !important;
 }
 .navbar {
-	background-color: #E6E3E4;
+	background-color: #fff;
 	color: #2D7D67;
 	border:0px;
 	font-family: "Open Sans",sans-serif;
@@ -18,16 +18,15 @@ body{
 }
 .feature{
 	height: 100%;	
-	margin-top: 35px;
 }
 .jumbotron{
-	background-color: #B3A9A6;
+	background-color: #f05a28;
 }
 .headline-text{
 	text-align: center;
 }
 .btn-primary{
-	background-color: #96141A;
+	background-color: #2D7D67;
 }
 .team-member{
    float: left;
@@ -35,7 +34,7 @@ body{
 	padding: 0px 20px;
 	text-align: center;
 	font-size: 0.8em;
-	border-left :2px solid #B3A9A6;
+	border-left :2px solid #f05a28;
 }
 #team{
 	margin:10px;
