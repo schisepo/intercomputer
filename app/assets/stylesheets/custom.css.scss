@@ -47,6 +47,7 @@ body{
 }
 .btn-primary{
 	background-color: #96141A;
+	border-radius: 20px;
 }
 .team-member{
    float: left;
@@ -55,7 +56,7 @@ body{
 	font-size: 0.8em;
 	border :1px solid #92818D;
 	margin:20px;
-	min-height: 260px;
+	min-height: 200px;
 }
 .card{
 	
@@ -120,14 +121,14 @@ body{
 	border-radius: 20px;
 }
 /* Carousel Fade Effect */
-.carousel.carousel-fade .item {
+/*.carousel.carousel-fade .item {
     -webkit-transition: opacity 1s linear;
     -moz-transition: opacity 1s linear;
     -ms-transition: opacity 1s linear;
     -o-transition: opacity 1s linear;
     transition: opacity 1s linear;
     opacity: .5;
-}
+}*/
 .carousel.carousel-fade .active.item {
     opacity: 1;
 }
@@ -143,4 +144,7 @@ body{
     bottom: 100px;
     right: 0;
     left: 0;    
+}
+.form-control{
+	border-radius: 20px;
 }
